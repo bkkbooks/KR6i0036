@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0036/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0036/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說彌勒來時經
+  identifiers:
+    krp: KR6i0036
+    cbeta: T14n0457
+    cbeta_old_id: T14n0457
+    authorityid: CA0002180
+    json_key: T0457
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0457.xml
+    old_id: T14n0457
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0036_000-T.yaml, hash: 'sha256:9e44e525fd6196bb751637af81158b0030899858b009e97e6438fd08091e6e2e'}
+  - {seq: 1, filename: KR6i0036_001-T.yaml, hash: 'sha256:284867ac7967e7b208dd79762840a489df59654245085dd53eb511bfba539e99'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0036_000-T.markers.yaml, hash: 'sha256:1c88f0828a046a8a52c1680d7efce0642b624caa1bd9d9519ac8cb5c96532a90'}
+  - {seq: 1, role: markers, filename: assets/KR6i0036_001-T.markers.yaml, hash: 'sha256:e5bb7a510d7d9c34dfff9fe9ef43474179c3febb967ca9a71dd5ccfe986e1492'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0036_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1046
+  label: 佛說彌勒來時經
+  type: juan
+  level: 1
+hash: sha256:f993b0fe73453fa3cce1c952221c4948b87be477230f1962dc681b6103df4998
